@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>God of War</title>
+</head>
+<style>
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('images/cathy-pham-3jAN9InapQI-unsplash.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .left {
+        position: absolute;
+        left: 60px;
+        top: 18px;
+        /* border: 2px solid red; */
+    }
+
+    .right {
+        position: absolute;
+        right: 32px;
+        top: 18px;
+        /* border: 2px solid green; */
+
+    }
+
+    .middle {
+        display: block;
+        width: 33%;
+        margin: 18px auto;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        padding: 24px 32px;
+        font-size: 25px;
+
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+
+
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: red;
+        text-decoration: underline;
+
+
+
+    }
+
+    .left img {
+
+        width: 136px;
+        filter: invert(100%);
+
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 25px;
+        line-height: 19px;
+    }
+
+    .btn {
+        margin: 9px 9px;
+        background-color: black;
+        color: white;
+        font-size: 25px;
+        padding: 4px 14px;
+        /* border: 2px solid pink; */
+        border-radius: 10px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover {
+        /* color: red; */
+        background-color: gray;
+    }
+
+    .container {
+        margin: 106px 80px;
+        /* border: 2px solid white; */
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+        font-size: 28px;
+        color: red;
+
+
+    }
+    .form_group input{
+        display: block;
+        text-align: center;
+        width: 508px;
+        padding: 12px;
+        margin: 15px auto;
+        border: 2px solid black;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    .container button{
+        display: block;
+        width: 23%;
+        margin: auto;
+
+    }
+    .container h1{
+        text-align: center;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left for logo -->
+        <div class="left">
+            <!-- I am left -->
+            <img src="logo/red-logo-black-background/OFAAX40.jpg" alt="">
+            <div>GodSlayer</div>
+
+
+        </div>
+        <!-- middle for navbar -->
+        <div class="middle">
+            <!-- I am middle -->
+            <ul class="navbar">
+                <li><a class="active" href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Fitness Calculator</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <!-- right for contact -->
+        <div class="right">
+            <button class="btn">Know About Us</button>
+            <button class="btn">Follow Us</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym now</h1>
+    <form action="Noaction.php">
+        <div class="form_group"><input type="text" name="" placeholder="Enter Your Name"></div>
+        <div class="form_group"><input type="text" name="" placeholder="Enter Your Age"></div>
+        <div class="form_group"><input type="text" name="" placeholder="Enter Your Gender"></div>
+        <div class="form_group"><input type="text" name="" placeholder="Enter Your Locality"></div>
+        <button class="btn">Submit</button>
+    </form>
+</div>
+</body>
+
+</html>
